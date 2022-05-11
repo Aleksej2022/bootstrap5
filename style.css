@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins';
+}
+
+.carousel-section img{
+    height: 350px;
+}
+
+.all-listings {
+    height: 11rem;
+}
+
+.contact-form {
+    width: 60vw;
+    
+}
+
+.footer-section {
+    min-height: 14rem;
+}
+
+/* until screen width of 0 to 768px form width should be 95vw */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 95vw;
+    }
+}
